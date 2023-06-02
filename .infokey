@@ -1,0 +1,40 @@
+#info
+g   beginning-of-node
+G   end-of-node
+\mb beginning-of-node
+\me end-of-node
+j   next-line
+k   prev-line
+
+f   scroll-forward-page-only
+^f  scroll-forward-page-only
+z   scroll-forward-page-only-set-window
+
+^b  scroll-backward-page-only
+
+J  down-line
+K  up-line
+
+l  forward-char
+w  forward-word
+
+h  backward-char
+b  backward-word
+
+0  beginning-of-line
+$  end-of-line
+
+1  add-digit-to-numeric-arg
+2  add-digit-to-numeric-arg
+3  add-digit-to-numeric-arg
+4  add-digit-to-numeric-arg
+5  add-digit-to-numeric-arg
+6  add-digit-to-numeric-arg
+7  add-digit-to-numeric-arg
+8  add-digit-to-numeric-arg
+9  add-digit-to-numeric-arg
+
+#var
+scroll-behavior=Page Only
+active-link-style=cyan
+match-style=yellow
