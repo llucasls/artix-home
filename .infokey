@@ -3,8 +3,8 @@ g   beginning-of-node
 G   end-of-node
 \mb beginning-of-node
 \me end-of-node
-j   next-line
-k   prev-line
+J   next-line
+K   prev-line
 
 f   scroll-forward-page-only
 ^f  scroll-forward-page-only
@@ -12,8 +12,8 @@ z   scroll-forward-page-only-set-window
 
 ^b  scroll-backward-page-only
 
-J  down-line
-K  up-line
+j  down-line
+k  up-line
 
 l  forward-char
 w  forward-word
