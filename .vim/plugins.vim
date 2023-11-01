@@ -16,7 +16,6 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'diepm/vim-rest-console'
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-scripts/info.vim'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
