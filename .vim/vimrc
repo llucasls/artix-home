@@ -1,0 +1,13 @@
+let s:vimdir = $MYVIMRC->split("/", v:true)[:-2]->join("/")
+function Source(file)
+  execute printf('source %s/%s', s:vimdir, a:file)
+endfunction
+
+call Source('plugins.vim')
+call Source('options.vim')
+call Source('keybindings.vim')
+call Source('run_buffer.vim')
+call Source('search.vim')
+call Source('help.vim')
+call Source('autocmd.vim')
+call Source('term.vim')
