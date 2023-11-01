@@ -3,8 +3,6 @@ g   beginning-of-node
 G   end-of-node
 \mb beginning-of-node
 \me end-of-node
-J   next-line
-K   prev-line
 
 f   scroll-forward-page-only
 ^f  scroll-forward-page-only
@@ -15,14 +13,18 @@ z   scroll-forward-page-only-set-window
 j  down-line
 k  up-line
 
-l  forward-char
 w  forward-word
-
-h  backward-char
 b  backward-word
+
+^h backward-char
+^j next-line
+^k prev-line
+^l forward-char
 
 0  beginning-of-line
 $  end-of-line
+
+ç clear-search
 
 1  add-digit-to-numeric-arg
 2  add-digit-to-numeric-arg
