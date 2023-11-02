@@ -2,7 +2,7 @@
 filetype on
 
 syntax enable
-colorscheme nord
+colorscheme gruvbox
 set background=dark
 set termguicolors
 
