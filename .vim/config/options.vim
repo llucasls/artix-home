@@ -29,7 +29,7 @@ set list listchars=tab:»\ ,trail:+,eol:$
 " Wrap to next line when end of line is reached
 set whichwrap+=<,>,[,]
 
-if $TERM !=# 'alacritty'
+if &term !=# 'alacritty'
   set guicursor=n-v-c:block-Cursor
 endif
 set guicursor+=i:ver100-iCursor
