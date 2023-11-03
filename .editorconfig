@@ -1,0 +1,22 @@
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+insert_final_newline = true
+
+[{*.R,*.js,*.cjs,*.mjs,Jakefile}]
+indent_style = space
+indent_size = 2
+
+[{*.py,*.coffee,Cakefile}]
+indent_style = space
+indent_size = 4
+
+[{*.c,*.sh,Makefile}]
+indent_style = tab
+tab_width = 4
+
+[.xinitrc]
+indent_style = tab
+tab_width = 4
