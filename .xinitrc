@@ -31,7 +31,7 @@ main() {
 	picom &
 	dwm-status-bar &
 	set_wallpaper "${WALLPAPER}" &
-	exec start-session dwm
+	exec dwm
 }
 
 main
