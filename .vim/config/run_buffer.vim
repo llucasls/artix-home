@@ -19,7 +19,7 @@ const s:interpreter_dict = {
   \ 'make': 'make -f',
   \ }
 
-const s:expand_list = ['%']
+const s:expand_list = ['%', '#']
 
 function! GetInterpreter()
   let first_line = getline(1)
